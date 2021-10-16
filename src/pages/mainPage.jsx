@@ -34,8 +34,6 @@ const MainPage = () => {
     setCurrentUser(id);
     setEditing(true);
   };
-  console.log("editing", editing);
-  console.log("currentUser", currentUser);
 
   return (
     <LayoutCardPage>

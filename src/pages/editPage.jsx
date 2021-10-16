@@ -34,7 +34,7 @@ const CreatePage = ({ setEditing, currentUser }) => {
     link: {
       isLink: {
         message:
-          "Поле <Портфолио> должно быть ссылкой.Например: https://www.google.ru/",
+          "Поле <Портфолио> должно быть ссылкой.Например: https://www.google.ru",
       },
     },
   };

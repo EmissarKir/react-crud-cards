@@ -1,4 +1,5 @@
 import React from "react";
+import { getAge } from "../utils/getAge";
 
 const User = ({ item, onEditUser }) => {
   return (
@@ -8,7 +9,7 @@ const User = ({ item, onEditUser }) => {
           <div className="col-12 col-md-6">
             {" "}
             <h5 className="card-title">
-              {item.name} {item.surname}
+              {item.name} {item.surname} {getAge(item.yearOfBirthday)}
             </h5>
           </div>
           <div className="col-12 col-md-6">
